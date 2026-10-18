@@ -5,19 +5,14 @@
    <PROGDIR>
     <NAME>YYK02574_SFLIGHT_ALV</NAME>
     <SUBC>1</SUBC>
-    <RLANG>E</RLANG>
-    <RSTAT>K</RSTAT>
-    <RMAND>001</RMAND>
     <FIXPT>X</FIXPT>
-    <DBAPL>S</DBAPL>
-    <DBNA>D</DBNA>
-    <SUBNM>DEVELOPER</SUBNM>
-    <EDTX>X</EDTX>
+    <UCCHECK>X</UCCHECK>
    </PROGDIR>
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>SFLIGHT ALV Report</ENTRY>
+     <ENTRY>Simple ALV report for flight data</ENTRY>
+     <LENGTH>33</LENGTH>
     </item>
    </TPOOL>
   </asx:values>
