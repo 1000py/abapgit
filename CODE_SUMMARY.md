@@ -1,0 +1,13 @@
+﻿# Code Summary
+
+## Files
+- `AGENTS.md`: abapGit file layout, naming, and report generation requirements.
+- `abapgit.xml`: Package descriptor included at the root of the distributable archive.
+- `src/yyk02574_sflight_alv.prog.abap`: Executable report; filters SFLIGHT by carrier and displays up to 100 rows in SALV.
+- `src/yyk02574_sflight_alv.prog.xml`: abapGit PROG metadata and report title text pool.
+- `yyk02574_sflight_alv_package_new.zip`: Distributable archive with the package descriptor and `src` report pair.
+
+## Main flow
+- `s_carrid` is the optional carrier selection range.
+- `START-OF-SELECTION` reads up to 100 ordered SFLIGHT rows, shows a warning-like message when no rows match, and otherwise displays an optimized SALV table with standard functions enabled.
+
