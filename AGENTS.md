@@ -48,15 +48,17 @@ abapgit은 파일 확장자와 파일명을 기반으로 오브젝트 유형을 
 **[XML 예시 (`abapgit.xml`)]**
 ```abapgit xml
 <?xml version="1.0" encoding="utf-8"?>
-<abapGit version="v1.0.0" serializer="LCL_OBJECT_DEVC" serializer_version="v1.0.0">
- <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
-  <asx:values>
-   <DEVC>
-    <CTEXT>$YDMM012_P01</CTEXT>
-   </DEVC>
-  </asx:values>
- </asx:abap>
-</abapGit>
+<asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+ <asx:values>
+  <DATA>
+   <NAME>$YDMM012_P01</NAME>
+   <MASTER_LANGUAGE>E</MASTER_LANGUAGE>
+   <STARTING_FOLDER>/src/</STARTING_FOLDER>
+   <FOLDER_LOGIC>PREFIX</FOLDER_LOGIC>
+  </DATA>
+ </asx:values>
+</asx:abap>
+
 
 **[XML 예시 (`yyK02574_sflight_alv.prog.xml`)]**
 ```xml
