@@ -36,13 +36,13 @@ abapgit은 파일 확장자와 파일명을 기반으로 오브젝트 유형을 
      ㄴ 소스코드파일
      ㄴ 메타데이터파일
 2. **ABAPGIT XML 파일:**
-   * **파일명:** `yyK02574_p01.xml` (예: `yyK02574_sflight_alv.prog.abap`)
-   * **내용:** 순수 ABAP 실행 코드 (`REPORT yyK02574_sflight_alv.`로 시작)   
+   * **파일명:** `yyK02574_p01.xml` (예: `yyK02574_alv01.prog.abap`)
+   * **내용:** 순수 ABAP 실행 코드 (`REPORT yyK02574_alv01.`로 시작)   
 3. **소스 코드 파일:**
-   * **파일명:** `yyK02574프로그램명.prog.abap` (예: `yyK02574_sflight_alv.prog.abap`)
-   * **내용:** 순수 ABAP 실행 코드 (`REPORT yyK02574_sflight_alv.`로 시작)
+   * **파일명:** `yyK02574프로그램명.prog.abap` (예: `yyK02574_alv01.prog.abap`)
+   * **내용:** 순수 ABAP 실행 코드 (`REPORT yyK02574_alv01.`로 시작)
 4. **메타데이터 파일:**
-   * **파일명:** `yyK02574프로그램명.prog.xml` (예: `yyK02574_sflight_alv.prog.xml`)
+   * **파일명:** `yyK02574프로그램명.prog.xml` (예: `yyK02574_alv01.prog.xml`)
    * **내용:** 프로그램 속성(Title, Status 등)을 담은 XML 구조
 
 
@@ -62,14 +62,14 @@ abapgit은 파일 확장자와 파일명을 기반으로 오브젝트 유형을 
 </asx:abap>
 
 
-**[XML 예시 (`yyK02574_sflight_alv.prog.xml`)]**
+**[XML 예시 (`yyK02574_alv01.prog.xml`)]**
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
  <asx:abap xmlns:asx="[http://www.sap.com/abapxml](http://www.sap.com/abapxml)" version="1.0">
   <asx:values>
       <PROGDIR>
-        <NAME>YYK02574_SFLIGHT_ALV</NAME>
+        <NAME>YYK02574_alv01</NAME>
         <SUBC>1</SUBC>
         <FIXPT>X</FIXPT>
         <UCCHECK>X</UCCHECK>
