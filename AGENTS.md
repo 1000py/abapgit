@@ -35,11 +35,13 @@ abapgit은 파일 확장자와 파일명을 기반으로 오브젝트 유형을 
   ㄴ src
      ㄴ 소스코드파일
      ㄴ 메타데이터파일
-   
-2. **소스 코드 파일:**
+2. **ABAPGIT XML 파일:**
+   * **파일명:** `yyK02574_p01.xml` (예: `yyK02574_sflight_alv.prog.abap`)
+   * **내용:** 순수 ABAP 실행 코드 (`REPORT yyK02574_sflight_alv.`로 시작)   
+3. **소스 코드 파일:**
    * **파일명:** `yyK02574프로그램명.prog.abap` (예: `yyK02574_sflight_alv.prog.abap`)
    * **내용:** 순수 ABAP 실행 코드 (`REPORT yyK02574_sflight_alv.`로 시작)
-3. **메타데이터 파일:**
+4. **메타데이터 파일:**
    * **파일명:** `yyK02574프로그램명.prog.xml` (예: `yyK02574_sflight_alv.prog.xml`)
    * **내용:** 프로그램 속성(Title, Status 등)을 담은 XML 구조
 
@@ -51,7 +53,7 @@ abapgit은 파일 확장자와 파일명을 기반으로 오브젝트 유형을 
 <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
  <asx:values>
   <DATA>
-   <NAME>$YDMM012_P01</NAME>
+   <NAME>$YYK02574_P01</NAME>
    <MASTER_LANGUAGE>E</MASTER_LANGUAGE>
    <STARTING_FOLDER>/src/</STARTING_FOLDER>
    <FOLDER_LOGIC>PREFIX</FOLDER_LOGIC>

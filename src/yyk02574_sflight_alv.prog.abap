@@ -1,7 +1,5 @@
 REPORT yyk02574_sflight_alv.
 
-TABLES sflight.
-
 SELECT-OPTIONS s_carrid FOR sflight-carrid.
 
 START-OF-SELECTION.
@@ -19,7 +17,7 @@ FORM display_flights.
     UP TO 100 ROWS.
 
   IF lt_flights IS INITIAL.
-    MESSAGE 'No flight records found for the selection.' TYPE 'S' DISPLAY LIKE 'W'.
+    MESSAGE 'No flight data found.' TYPE 'S' DISPLAY LIKE 'W'.
     RETURN.
   ENDIF.
 
