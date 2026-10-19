@@ -31,13 +31,13 @@ abapgit은 파일 확장자와 파일명을 기반으로 오브젝트 유형을 
    * 파일은 최종으로 압축파일로 만든다.
 **파일구성 예시**
   FOLDER
-  ㄴ ABAPGIT.XML
+  ㄴ .abapgit.XML
   ㄴ src
      ㄴ 소스코드파일
      ㄴ 메타데이터파일
-2. **ABAPGIT XML 파일:**
-   * **파일명:** `yyK02574_p01.xml` (예: `yyK02574_alv01.prog.abap`)
-   * **내용:** 순수 ABAP 실행 코드 (`REPORT yyK02574_alv01.`로 시작)   
+2. ** .abapgit.xml 파일:**
+   * **파일명:** `.abapgit.xml` (예: `.abapgit.xml`)
+   * **내용:** XML 예시 (`.abapgit.xml`)
 3. **소스 코드 파일:**
    * **파일명:** `yyK02574프로그램명.prog.abap` (예: `yyK02574_alv01.prog.abap`)
    * **내용:** 순수 ABAP 실행 코드 (`REPORT yyK02574_alv01.`로 시작)
@@ -47,7 +47,7 @@ abapgit은 파일 확장자와 파일명을 기반으로 오브젝트 유형을 
 
 
 
-**[XML 예시 (`abapgit.xml`)]**
+**[XML 예시 (`.abapgit.xml`)]**
 ```abapgit xml
 <?xml version="1.0" encoding="utf-8"?>
 <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
